@@ -42,7 +42,7 @@ A best-practice polyrepo template for managing single package and application in
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/polyrepo-template.git
+   git clone https://github.com/iamyoki/polyrepo-template.git
    cd polyrepo-template
    ```
 
