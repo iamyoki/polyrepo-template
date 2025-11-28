@@ -5,19 +5,17 @@
     "version": { "conventionalCommits": true },
     "conventionalCommits": {
       "types": {
-        "types": {
-          "feat": true,
-          "fix": true,
-          "chore": { "semverBump": "none" },
-          "style": { "semverBump": "none" },
-          "test": { "semverBump": "none" },
-          "build": true,
-          "ci": { "semverBump": "none" },
-          "docs": { "semverBump": "none" },
-          "perf": true,
-          "refactor": true,
-          "revert": true
-        }
+        "feat": true,
+        "fix": true,
+        "chore": { "semverBump": "none" },
+        "style": { "semverBump": "none" },
+        "test": { "semverBump": "none" },
+        "build": true,
+        "ci": { "semverBump": "none" },
+        "docs": { "semverBump": "none" },
+        "perf": true,
+        "refactor": true,
+        "revert": true
       }
     },
     "changelog": {
