@@ -1,7 +1,6 @@
 {
   "name": "@iamyoki/polyrepo-template",
   "version": "0.0.0",
-  "private": true,
   "description": "A best-practice polyrepo template",
   "keywords": [],
   "license": "ISC",
