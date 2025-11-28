@@ -1,5 +1,5 @@
 {
-  "name": "polyrepo-template",
+  "name": "@iamyoki/polyrepo-template",
   "version": "0.0.0",
   "private": true,
   "description": "A best-practice polyrepo template",
@@ -31,7 +31,8 @@
     "start": "node ./dist/app/main.js",
     "test": "node --import=tsx --conditions=development --test",
     "test:cov": "pnpm test --experimental-test-coverage",
-    "test:watch": "pnpm test --watch"
+    "test:watch": "pnpm test --watch",
+    "typecheck": "tsc -b"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
