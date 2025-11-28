@@ -47,5 +47,5 @@
     "rewriteRelativeImportExtensions": true,
     "customConditions": ["development"] // May not needed in polyrepo
   },
-  "include": ["src", "test"]
+  "include": ["src", "test", "scripts"]
 }
