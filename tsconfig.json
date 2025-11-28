@@ -44,7 +44,8 @@
 
     "noEmit": true,
     "composite": true,
-    "rewriteRelativeImportExtensions": true
+    "rewriteRelativeImportExtensions": true,
+    "customConditions": ["development"] // May not needed in polyrepo
   },
   "include": ["src", "test"]
 }
