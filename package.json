@@ -23,6 +23,7 @@
   "scripts": {
     "build": "tsc -b ./tsconfig.build.json",
     "clean": "del **/{dist,*.tgz,*.tsbuildinfo}",
+    "commit": "node --import=tsx ./scripts/commit.ts",
     "dev": "node --import=tsx --conditions=development --watch ./src/app/main.ts",
     "format": "prettier --write --cache .",
     "lint": "eslint --cache",
