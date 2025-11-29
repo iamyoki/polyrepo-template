@@ -1,5 +1,7 @@
 # Polyrepo Template
 
+[![Release](https://github.com/iamyoki/polyrepo-template/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/iamyoki/polyrepo-template/actions/workflows/release.yaml)
+
 A best-practice polyrepo template for managing single package and application in a repository. This template is designed to streamline development workflows, enforce consistent coding standards.
 
 > Polyrepo simply means a repository only contains one project.
