@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="relative flex flex-1 overflow-hidden before:absolute before:bg-[url('https://preline.co/assets/svg/examples/squared-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/squared-bg-element.svg')] before:bg-no-repeat before:size-full before:-z-1 before:transform  before:bg-center">
+    <div className="relative flex flex-1">
       <div className="max-w-[85rem] flex flex-col justify-center flex-1 mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         {/* Announcement Banner */}
         <div className="inline-flex items-center self-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-sm font-medium mb-8">
@@ -38,22 +38,22 @@ export default function HomePage() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
           <Link
             href="/docs"
-            className="w-full sm:w-auto px-8 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg shadow-lg shadow-indigo-500/25 transition-all flex items-center justify-center gap-2 group"
+            className="w-full sm:w-auto px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-full transition-all flex items-center justify-center gap-2 group"
           >
-            Get started
+            Get Started
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
 
-          <div className="w-full sm:w-auto flex items-center bg-slate-900 border border-slate-800 rounded-lg px-4 py-3.5 group cursor-pointer hover:border-slate-700 transition-colors">
+          {/* <div className="w-full sm:w-auto flex items-center bg-slate-900 border border-slate-800 rounded-full px-5 py-3 hover:border-slate-700 transition-colors">
             <span className="text-slate-500 mr-3">$</span>
             <span className="text-slate-300 font-mono text-sm">
-              npm install ...
+              git clone --depth=1 ...
             </span>
             <i
               data-lucide="copy"
               className="w-4 h-4 text-slate-500 ml-4 group-hover:text-white transition-colors"
             ></i>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

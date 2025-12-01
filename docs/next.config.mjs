@@ -10,6 +10,7 @@ const config = {
     root: import.meta.dirname,
   },
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  images: { unoptimized: true },
 };
 
 export default withMDX(config);
